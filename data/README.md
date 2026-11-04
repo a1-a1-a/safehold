@@ -8,8 +8,6 @@ Datasets are organized by their role in the paper.
 |---|---:|---|
 | `fixed_safety_supervision/advbench_probes8.jsonl` | 8 probes | Eight fixed trusted AdvBench probes used for safety supervision |
 
-Probe questions are stored verbatim; the paper displays them with sentence-final punctuation for readability.
-
 ## Refusal-opening read-out
 
 | File | Size | Role |
