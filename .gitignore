@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.log
+.env
+configs/*.env
+!configs/example.env
+data/raw/
+models/
+outputs/
+results/
+*.pdf
+*.png
+data/generated_fractions/
+data/generated_probes/

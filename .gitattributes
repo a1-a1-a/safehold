@@ -1,0 +1,3 @@
+src/safehold/judge.txt -text
+src/safehold/xst_judge_prompt.txt -text
+*.sh text eol=lf

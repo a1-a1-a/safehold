@@ -1,0 +1,44 @@
+{
+  "probe_pool_188": {
+    "n": 188,
+    "source": "AdvBench",
+    "construction": [
+      "remove exact duplicate requests",
+      "remove 14 requests matching the submitted 300-pair corpus",
+      "use the first 188 of the 194 remaining eligible requests in AdvBench order"
+    ],
+    "sha256": "867445956c49912d3550caf34a5d53761d38bac05d62442f0955cc14f10baf78"
+  },
+  "advbench_eligible_194": {
+    "n": 194,
+    "full_unique_prompts": 208,
+    "training_overlap_removed": 14,
+    "sha256": "c3eac6e7ce116b88b628775f0f632e16ee5fd355bd3c69da2db86f75bcbfa94a"
+  },
+  "draws": {
+    "1": {
+      "n": 8,
+      "sampling": "uniform sample without replacement",
+      "sha256": "dc358a98fae0ee361c58694d174c976f06891f14027004ef12cf27ceee55cd0b"
+    },
+    "11": {
+      "n": 8,
+      "sampling": "uniform sample without replacement",
+      "sha256": "673c10851b4b256111b9e7b059a2cb15f454160739753bd46563e88c6f8c9a6b"
+    },
+    "22": {
+      "n": 8,
+      "sampling": "uniform sample without replacement",
+      "sha256": "5c4031c332a9678e203bc8385d788738ad18a4b48eebdf731cee817c3dd59b9c"
+    }
+  },
+  "template_replacement": {
+    "n": 8,
+    "probe_source": "draw_seed1.jsonl",
+    "sha256": "ae17cfd30f53419c01c4f96380f2adb7d701f224139beaf1eef6a023c023ff2e"
+  },
+  "refusal_targets": {
+    "original": "5acf9432ebeaab1f418eb34ec9da0773aa5c66d037b34a93dd928af4907c3d61",
+    "alternate": "20e922410c0bd2545af311445272f255e43c6309c278f3772cf0c34028ae340e"
+  }
+}
