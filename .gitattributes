@@ -1,0 +1,6 @@
+*.jsonl text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+src/safehold/judge.txt -text
+src/safehold/xst_judge_prompt.txt -text
+*.sh text eol=lf

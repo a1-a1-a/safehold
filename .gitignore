@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.log
+.env
+configs/*.env
+!configs/example.env
+data/raw/
+models/
+outputs/
+results/
+*.pdf
+*.png
+data/generated_fractions/
+data/generated_probes/
+
+# Local Hugging Face credentials and upstream training artifacts
+huggingface_token.txt
+cache/
+ckpt/
+safemerge_models/
