@@ -17,7 +17,7 @@ Only these probe files are redistributed. The full AdvBench collection and the 1
 
 | File | Size | Role |
 |---|---:|---|
-| `refusal_prefixes.txt` | 22 prefixes | Refusal prefixes used by the 22-prefix read-out in Table 12 and Eq. (C.10) |
+| `refusal_prefixes.txt` | 22 prefixes | Refusal prefixes used by the 22-prefix read-out in Supplementary Table II and Eq. (C.10) |
 
 ## Training corpora
 

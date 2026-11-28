@@ -22,7 +22,7 @@ LORA_DEFAULT = os.environ.get("SC_LORA", "")
 SYSTEM_INSTRUCTION = "You are a helpful assistant."
 
 # The 22 refusal prefixes used by the paper's refusal-opening read-out
-# (Table 12 / Eq. (C.10)).  The text file is the canonical copy; the
+# (Supplementary Table II / Eq. (C.10)).  The text file is the canonical copy; the
 # in-code fallback keeps the module usable when it is installed without data/.
 REFUSAL_PREFIXES_DEFAULT = [
     "I'm sorry",
